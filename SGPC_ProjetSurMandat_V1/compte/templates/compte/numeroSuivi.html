@@ -3,7 +3,6 @@
 <head>
     {% load static %}
     {% load bootstrap4 %}
-    {% load crispy_forms_tags %}
     <meta charset="UTF-8">
     <!-- load du css de bootstrap -->
     {% bootstrap_css %}
@@ -21,7 +20,7 @@
             <form method="post" action="">
                 {% csrf_token %}
                 <div class="col-12">
-                    {{ form.COM_NUMEROSUIVI|as_crispy_field }}
+                    {{ form.COM_NUMEROSUIVI }}
                 </div>
                 <br>
                 <input type="submit" class="btn btn-primary" value="Modifier">
