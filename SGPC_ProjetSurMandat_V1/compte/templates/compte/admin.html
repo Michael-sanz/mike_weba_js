@@ -2,20 +2,18 @@
 <html lang="fr">
 <head>
     {% load static %}
-    <link rel="shortcut icon" type="image/png" href="{% static 'compte/images/favicon.ico' %}"/>
-    <link rel="shortcut icon" type="image/png" href="{% static 'compte/images/SGPC.PNG' %}"/>
+
     {% load bootstrap4 %}
     <meta charset="UTF-8">
     <!-- load du css de bootstrap -->
     {% bootstrap_css %}
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{% static 'compte/css/admin.css' %}" rel="stylesheet" type="text/css">
     <title>Espace administration</title>
 </head>
 <body>
 {% include 'nav.html' %}
-<div class="container">
+<div class="container" id="test">
     {% if produitsStockAlert|length > 1 %}
         <div class="alert alert-info alert-dismissible fade show" role="alert">
           <p>les produits {% for produit in produitsStockAlert %} <strong>{{ produit.PRO_NOM }} ({{ produit.PRO_QUANTITESTOCK }})</strong> {% endfor %}, ont une faible quantité en stock.</p>
@@ -86,9 +84,9 @@
                <ul style="list-style-type: none">
                    {% if commandesEnPrep %}
                       {% for comPrep in commandesEnPrep %}
-                           <a href="{% url 'detail_commande' comPrep.id %}">
+
                           <li>
-                            {{ comPrep.id }} - {{comPrep.COM_UTI_ID.UTI_NOM}} - {{comPrep.COM_DATE}} - {{comPrep.COM_STATUT}}  <a href="{% url 'numeroSuivi' comPrep.id %}"><button class="btn btn-outline-secondary">Entrer n° suivi</button></a>
+                            {{ comPrep.id }} - {{comPrep.COM_UTI_ID.UTI_NOM}} - {{comPrep.COM_DATE}} - {{comPrep.COM_STATUT}} <button class="btnNumeroSuivi" id="{{ comPrep.id }}" >Entrer n° suivi</button>
                           </li>
                            <div class="container containerbutton">
 
@@ -215,4 +213,10 @@
 </div>
 </div>
 </body>
+<script type="text/javascript" src="{% static 'compte/js/admin.js' %}"></script>
 </html>
+
+{##}
+{#Lien utile#}
+{#<a href="{% url 'numeroSuivi' comPrep.id %}"></a>#}
+{#<a href="{% url 'detail_commande' comPrep.id %}"></a>#}
