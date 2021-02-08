@@ -1,0 +1,11 @@
+*{
+    font-family: Bahnschrift;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
