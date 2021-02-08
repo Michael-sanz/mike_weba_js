@@ -19,53 +19,54 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="">
+    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
+      <change beforePath="$PROJECT_DIR$/.idea/SGPC git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SGPC git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/commande.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/commande.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/detailPanier.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/templates/catalogue/detailPanier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/catalogue/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerCategorie.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerCategorie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerDevisReservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerDevisReservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerMarque.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerProduit.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerProduit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerReservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerReservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerReservationClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/creerReservationClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/demandeDevis.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/demandeDevis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailDevis.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailDevis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailProduitAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailProduitAdmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailReservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/detailReservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/devis_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/devis_pdf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listParametre.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listParametre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCategorie.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCategorie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommande.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommande.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeEspaceClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeEspaceClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeExp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeExp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeOuverte.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandeOuverte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandePrep.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeCommandePrep.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeDevis.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeDevis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifParametre.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifParametre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierCategorie.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierCategorie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierMarque.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierProduit.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierProduit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierReservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierReservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/numeroSuivi.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/numeroSuivi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/password_reset_sent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerCategorie.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerCategorie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerMarque.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerProduit.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerProduit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/supprimerProduitAdmin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/chardetect.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/django-admin.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/django-admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/easy_install-3.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/easy_install.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/gunicorn.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_autoconfigure_django.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_create_scheduled_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_create_webapp_with_virtualenv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_delete_scheduled_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_delete_webapp_logs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_get_scheduled_task_specs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_get_scheduled_tasks_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_install_webapp_letsencrypt_ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_install_webapp_ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_reload_webapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_start_django_webapp_with_virtualenv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_update_scheduled_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip3.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2latex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2man.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2odt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2odt_prepstyles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2pseudoxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2s5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2xetex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rstpep2html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/snakesay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/sqlformat.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/tabulate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venvCentrale/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +82,7 @@
         <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +102,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/KexBonga_6-sg_performance_customs-e5a75ee53bbc/SGPC_ProjetSurMandat_V1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
@@ -192,7 +194,16 @@
       <workItem from="1602657116521" duration="19928000" />
       <workItem from="1602743048003" duration="14226000" />
       <workItem from="1602828191296" duration="17747000" />
+      <workItem from="1612803364544" duration="11197000" />
     </task>
+    <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
+      <created>1612815058386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612815058386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,95 +221,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601544143727">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544143727" />
-    <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600850038795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600850038795" />
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602080949975">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602080949975" />
-    <state x="827" y="294" key="EnvironmentVariablesDialog" timestamp="1601542604177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="827" y="294" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601542604177" />
-    <state x="1129" y="386" key="FileChooserDialogImpl" timestamp="1602483820609">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1129" y="386" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602483820609" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1602848316480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848316480" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110274" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1602848316480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848316480" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110274" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1602848316480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848316480" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110274" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1602848316480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602848316480" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110274" />
-    <state width="1877" height="333" key="GridCell.Tab.1.bottom" timestamp="1602770100857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602770100857" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110149" />
-    <state width="1877" height="333" key="GridCell.Tab.1.center" timestamp="1602770100857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="333" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602770100857" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110149" />
-    <state width="1877" height="333" key="GridCell.Tab.1.left" timestamp="1602770100857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="333" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602770100857" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110149" />
-    <state width="1877" height="333" key="GridCell.Tab.1.right" timestamp="1602770100857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="333" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602770100857" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602235110149" />
-    <state x="380" y="146" key="SettingsEditor" timestamp="1601542860710">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="380" y="146" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601542860710" />
-    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog" timestamp="1601367778781">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601367778781" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602683644883">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602683644883" />
-    <state x="2051" y="130" width="967" height="717" maximized="true" key="dock-window-1" timestamp="1602076458922">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2051" y="130" width="967" height="717" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602076458922" />
-    <state x="1986" y="58" width="967" height="717" maximized="true" key="dock-window-2" timestamp="1602139865693">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1986" y="58" width="967" height="717" maximized="true" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602139865693" />
-    <state x="189" y="-8" width="1260" height="825" maximized="true" key="dock-window-3" timestamp="1602077257469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="189" y="-8" width="1260" height="825" maximized="true" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602077257469" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602842793055">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602842793055" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rétablissement de l'environnment de travail (installation de package , correction des bugs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rétablissement de l'environnment de travail (installation de package , correction des bugs)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
