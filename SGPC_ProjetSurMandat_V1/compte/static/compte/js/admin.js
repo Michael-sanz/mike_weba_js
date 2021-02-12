@@ -48,34 +48,54 @@ function styleOverlay() {
   contentContainer.style.height = '17vh';
 }
 function displayOverlay(idBtn) {
-
-  if(displayBool) {
-    overlayDiv.innerHTML = `
+    console.log(idBtn)
+    overlayDiv.innerHTML = `        
       <div id="container">
-        <h1>Hello, World</h1>
+        <h1>Entrer le numéro de suivi</h1>
+        <div class="form-group">
+            <form method="post" action=">
+                <div class="col-12">
+                    <input type="text" id="InputNumeroSuivi" name="InputNumeroSuivi"><br>
+                </div>
+                <br>
+                <input type="submit" class="btn btn-primary" id="btnNum" value="Modifier">
+                <a href="#"><button class="btn btn-danger">Annuler</button></a><br>
+            </form>
+        </div>
         <button id="close-btn">Close</button>
         <p id="testpara"></p>
       </div> 
     `
-    styleOverlay();
 
+    console.log(document.getElementById("InputNumeroSuivi"));
+    if(displayBool) {
+    styleOverlay();
     document.getElementById("testpara").innerHTML = idBtn;
-    console.log(idBtn);
+
     overlayDiv.style.display = 'block';
 
   } else {
       overlayDiv.style.display = 'none';
     }
 }
+
+
+
 body.addEventListener('click', event => {
   if(event.target.className === 'btnNumeroSuivi') {
        displayBool = !displayBool;
        var idBtn = event.target.id;
        displayOverlay(idBtn);
+       var script = document.getElementById("scriptJS")
+      script.innerHTML += 'var boutton = document.getElementById("btnNum")'+'boutton.addEventListener("click",event =>{window.location.href = "{% url \'numeroSuivi\' %}";})'
+
 
   } else if(event.target.id === 'close-btn') {
       displayBool = !displayBool;
       displayOverlay();
     }
+  //   else if(event.target.className !== 'btnNumeroSuivi') {
+  //      overlayDiv.style.display = 'none';
+  // }
 })
 

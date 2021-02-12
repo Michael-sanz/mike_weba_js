@@ -26,7 +26,7 @@ from io import BytesIO
 from django.template.loader import get_template
 from xhtml2pdf import pisa
 from datetime import date, datetime
-
+from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
 
@@ -74,6 +74,7 @@ def signUpView(request):
 
 @login_required(login_url="/login/") #inspirer de https://www.youtube.com/watch?v=eBsc65jTKvw
 @user_passes_test(lambda u: u.UTI_is_admin) #inspirer de https://stackoverflow.com/questions/21649439/redirecting-user-passes-testlambda-u-u-is-superuser-if-not-a-superuser-to-an
+@csrf_exempt
 def adminView(request):
     aujourdhui = _datetime.date.today() #Récupération de la date du jour
     utilisateurs = SGPC_Utilisateur.objects.all() # Récupération de tous les utilisateurs présents dans la base de données
@@ -105,26 +106,33 @@ def adminView(request):
 def numeroSuivi(request,id):
     commande = SGPC_COMMANDE.objects.get(id=id) # Récupération de la commande ayant comme id le paramètre "ID"
     if request.method == 'POST': # Vérification si le formulaire est valide
-        form = NumeroSuivi(request.POST, instance=commande)
-        if form.is_valid():
-            form = form.save(commit=False)
-            form.COM_STATUT = 'Expédiée'# Changement du statut de la commande
-            form.save() # Enregistrement du numéro de suivi ainsi que des changements effectués dans la base de données
-            send_mail('Numéro de suivi pour la commande '+commande.id,
-                      'Bonjour, '
-                      'Votre commande n°'+ str(commande.id) +'du '+ commande.COM_DATE +' a été expédié.'+
-                      'Voici votre numéro de suivi '+ str(commande.COM_NUMEROSUIVI),
-                      settings.EMAIL_HOST_USER,
-                      [settings.EMAIL_HOST_USER],
-                      fail_silently=False)
-            return redirect('admin')
+        # form = NumeroSuivi(request.POST, instance=commande)
+        commande.COM_NUMEROSUIVI = request.POST['InputNumeroSuivi']
+        commande.COM_STATUT = 'Expédiée'
+            # if form.is_valid():
+            # form = form.save(commit=False)
+            # form.COM_STATUT = 'Expédiée'# Changement du statut de la commande
+            # form.save() # Enregistrement du numéro de suivi ainsi que des changements effectués dans la base de données
+        commande.save()
+        print("t beau")
+
+
+            # send_mail('Numéro de suivi pour la commande '+commande.id,
+            #           'Bonjour, '
+            #           'Votre commande n°'+ str(commande.id) +'du '+ commande.COM_DATE +' a été expédié.'+
+            #           'Voici votre numéro de suivi '+ str(commande.COM_NUMEROSUIVI),
+            #           settings.EMAIL_HOST_USER,
+            #           [settings.EMAIL_HOST_USER],
+            #           fail_silently=False)
+        return redirect('admin')
     else:
-        form = NumeroSuivi(instance=commande) # Rechargement du formulaire si celui-ci n'est pas valide
+        print("Erreur de requete")
+        # form = NumeroSuivi(instance=commande) # Rechargement du formulaire si celui-ci n'est pas valide
     context = {
         'commande': commande,
-        'form' : form,
+        # 'form' : form,
     }
-    return render(request, 'compte/numeroSuivi.html',context)
+    return render(request, 'compte/admin.html',context)
 
 @login_required(login_url="/login/") #inspirer de https://www.youtube.com/watch?v=eBsc65jTKvw
 def espaceClient(request, pk):
