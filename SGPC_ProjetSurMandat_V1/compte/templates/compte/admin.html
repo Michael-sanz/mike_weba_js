@@ -91,7 +91,10 @@
                            <div class="container containerbutton">
 
                             </div>
-                           </a>
+                          <form id="{{ comPrep.id }}" class="formNumeroSuivi" method="post" action={% url 'numeroSuivi' comPrep.id %}>
+
+                          </form>
+
                       {% endfor %}
                        <a href="{% url 'listeCommandePrep' %}"><button class="btn btn-primary">Toutes les commandes en préparation</button></a>
                 {% else %}
@@ -130,6 +133,7 @@
 {#                <a href="{% url 'detail_commande' com.id %}">#}
 {#                    <li>{{com.COM_UTI_ID.UTI_NOM}} - {{com.COM_DATE}} - {{com.COM_STATUT}}</li>#}
 {#                </a>#}
+
 {#             {% endfor %}#}
 {#          </ul>#}
 
@@ -213,7 +217,7 @@
 </div>
 </div>
 </body>
-<script type="text/javascript" src="{% static 'compte/js/admin.js' %}" id="scriptJS"></script>
+<script type="text/javascript" src="{% static 'compte/js/admin.js' %}"></script>
 </html>
 
 {##}

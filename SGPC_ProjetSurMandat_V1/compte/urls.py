@@ -10,7 +10,7 @@ urlpatterns = [
     url(r'login/',views.loginPage, name="login"),
     url(r'logout/',views.logoutPage, name="logout"),
     url(r'signup/',views.signUpView, name="signup"),
-    url(r'admin/',views.adminView, name="admin"),
+    url('admin/',views.adminView, name="admin"),
     url(r'liste_produits/',views.listeProduits, name="liste_produits"),
     url('creerProduit/', views.creerProduit, name="create_produit"),
     url('creerReservation/', views.creerReservation, name="create_reservation"),
@@ -49,7 +49,7 @@ urlpatterns = [
     path('creerCommandeRDV/<str:pk>', views.creerCommandeRDV, name="creerCommandeRDV"),
     path('ajouterCommandeRDV/<str:pk>/<str:comID>', views.ajouterCommandeRDV, name="ajouterCommandeRDV"),
     path('devisPDF/<int:id>/', views.devisPDF.as_view(), name="devisPDF"),#inspiré de https://www.youtube.com/watch?v=5umK8mwmpWM
-    path('numeroSuivi/<str:id>/', views.numeroSuivi, name="numeroSuivi"),
+    path('numeroSuivi/<str:pk>/', views.numeroSuivi, name="numeroSuivi"),
     path('listeCommandeOuverte/<str:pk>/', views.listeCommandeOuverte, name="listeCommandeOuverte"),
     path('ajouterCommandeProd/<str:pk>/<str:comID>', views.ajouterCommandeProd, name="ajouterCommandeProd"),
     path('facturePaye/<str:pk>/', views.facturePaye, name="facturePaye"),

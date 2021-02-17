@@ -19,54 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
-      <change beforePath="$PROJECT_DIR$/.idea/SGPC git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SGPC git.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/hhva_angelamrn.VcvpEA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/hhva_angelamrn.VcvpEA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/moviesdatabase.vsVOmg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/moviesdatabase.vsVOmg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/sgpctest.WSCRtw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/sgpctest.WSCRtw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/SGPC_ProjetSurMandat_V1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/SGPC_ProjetSurMandat_V1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/chardetect.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/django-admin.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/django-admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/easy_install-3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/gunicorn.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_autoconfigure_django.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_create_scheduled_task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_create_webapp_with_virtualenv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_delete_scheduled_task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_delete_webapp_logs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_get_scheduled_task_specs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_get_scheduled_tasks_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_install_webapp_letsencrypt_ssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_install_webapp_ssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_reload_webapp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_start_django_webapp_with_virtualenv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pa_update_scheduled_task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2html5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2latex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2man.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2odt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2odt_prepstyles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2pseudoxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2s5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2xetex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rst2xml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/rstpep2html.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/snakesay.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/sqlformat.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/Scripts/tabulate.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venvCentrale/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +158,9 @@
       <workItem from="1602657116521" duration="19928000" />
       <workItem from="1602743048003" duration="14226000" />
       <workItem from="1602828191296" duration="17747000" />
-      <workItem from="1612803364544" duration="11197000" />
+      <workItem from="1612803364544" duration="11763000" />
+      <workItem from="1613389915615" duration="12193000" />
+      <workItem from="1613579319142" duration="9556000" />
     </task>
     <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
       <created>1612815058386</created>
@@ -203,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612815058386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué !">
+      <created>1612823937806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612823937806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)">
+      <created>1612823996355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612823996355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +203,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rétablissement de l'environnment de travail (installation de package , correction des bugs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rétablissement de l'environnment de travail (installation de package , correction des bugs)" />
+    <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué !" />
+    <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
