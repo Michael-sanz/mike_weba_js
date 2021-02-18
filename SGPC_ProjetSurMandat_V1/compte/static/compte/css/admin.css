@@ -56,3 +56,31 @@ li:hover {
 .container .containerbutton{
     margin-top: 0px;
 }
+
+/*modal section*/
+
+modal {
+    top: 0;
+    position: fixed;
+    margin-left: 280px;
+    width: 500px;
+    height: 300px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formNumeroSuivi{
+    color: black;
+    font-size: 20px;
+}
+
+.formNumeroSuivi span {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 50px;
+    color: red;
+    transform: rotate(45deg);
+}

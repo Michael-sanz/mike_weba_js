@@ -99,7 +99,11 @@
 const body = document.querySelector('body');
 
 
+
 function modifierForm(button) {
+    var parentNod = document.getElementById("elementParent")
+    var modal = document.createElement("modal");
+    parentNod.appendChild(modal);
     var formulaireNumeroSuivi = document.getElementsByClassName("formNumeroSuivi");
     var idForm = button.id;
     for (let i = 0; i < formulaireNumeroSuivi.length; i++) {
@@ -110,15 +114,25 @@ function modifierForm(button) {
         }
     }
     formulaireVoulu.innerHTML =
+        '<span id="croix">+</span>'+
         '<div>'+
+        '<label>Entrez-le numéro de suivi</label>'+
+        '<br>'+
         ' <input name="inputNumeroSuivi"  type="text"/>'+
         ' <br>'+
-        '<input type="submit" class="btn btn-primary" id="btnNum" value="Modifier"/>'+
-       ' </div>'
+        '<br>'+
+        '<input type="submit" class="btn btn-primary" id="btnNum" value="Modifier" placeholder="Entrez le numéro de suivi"/>'+
+       ' </div>'+
+        '</div>'
+
+    modal.append(formulaireVoulu);
 }
 
 body.addEventListener('click', event => {
     if (event.target.className === 'btnNumeroSuivi') {
         modifierForm(event.target);
+    }
+    else if (event.target.id === 'croix'){
+        document.location.reload()
     }
 })

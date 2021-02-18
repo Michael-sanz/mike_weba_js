@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/hhva_angelamrn.VcvpEA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/hhva_angelamrn.VcvpEA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/moviesdatabase.vsVOmg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/moviesdatabase.vsVOmg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/sgpctest.WSCRtw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c/storage_v2/_src_/schema/sgpctest.WSCRtw.meta" afterDir="false" />
+    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/SGPC_ProjetSurMandat_V1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/SGPC_ProjetSurMandat_V1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -160,7 +153,8 @@
       <workItem from="1602828191296" duration="17747000" />
       <workItem from="1612803364544" duration="11763000" />
       <workItem from="1613389915615" duration="12193000" />
-      <workItem from="1613579319142" duration="9556000" />
+      <workItem from="1613579319142" duration="9895000" />
+      <workItem from="1613654850403" duration="5285000" />
     </task>
     <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
       <created>1612815058386</created>
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612823996355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py">
+      <created>1613589167447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613589167447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +206,8 @@
     <MESSAGE value="Rétablissement de l'environnment de travail (installation de package , correction des bugs)" />
     <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué !" />
     <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
+    <MESSAGE value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
