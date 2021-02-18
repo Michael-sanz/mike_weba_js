@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/admin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1612803364544" duration="11763000" />
       <workItem from="1613389915615" duration="12193000" />
       <workItem from="1613579319142" duration="9895000" />
-      <workItem from="1613654850403" duration="5285000" />
+      <workItem from="1613654850403" duration="11418000" />
     </task>
     <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
       <created>1612815058386</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613589167447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout du css et création de la modal">
+      <created>1613661076820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613661076820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +213,8 @@
     <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué !" />
     <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
     <MESSAGE value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
+    <MESSAGE value="Ajout du css et création de la modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du css et création de la modal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
