@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py">
+      <change beforePath="$PROJECT_DIR$/.idea/SGPC git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SGPC git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +43,15 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="61905e1e-dbd4-44de-9c3b-77bcf82d05e6" />
+  <component name="JupyterTrust" id="3d1a10b9-0ecc-4cf4-8eb4-d1e06b21a176" />
   <component name="ProjectId" id="1hrQp4gV99gkG8VGVQpmfbbPIpU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -62,7 +68,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
@@ -154,6 +160,8 @@
       <workItem from="1613389915615" duration="12193000" />
       <workItem from="1613579319142" duration="9895000" />
       <workItem from="1613654850403" duration="11418000" />
+      <workItem from="1614000796135" duration="1975000" />
+      <workItem from="1614602833084" duration="3899000" />
     </task>
     <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
       <created>1612815058386</created>
@@ -215,6 +223,16 @@
     <MESSAGE value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
     <MESSAGE value="Ajout du css et création de la modal" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajout du css et création de la modal" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614603195337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614603195337" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614602835240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614602835240" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

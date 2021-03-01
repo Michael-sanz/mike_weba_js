@@ -58,7 +58,7 @@ urlpatterns = [
     path('listeRDVClient/<str:pk>/', views.listeRDVClient, name="listeRDVClient"),
     path('listeCommandeEspaceClient/<str:pk>/', views.listeCommandeEspaceClient, name="listeCommandeEspaceClient"),
     path('listeRendezVous/', views.listeRendezVous, name='listeRendezVous'),
-
+    path('creerMarqueAjax/', views.creerMarqueAjax, name='creerMarqueAjax'),
     url('demandeDevis/', views.demandeDevis, name="demandeDevis"),
 
     #réinitialisation de mot de passe // inspiré de https://www.youtube.com/watch?v=sFPcd6myZrY

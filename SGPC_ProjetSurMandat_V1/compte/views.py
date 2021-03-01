@@ -27,6 +27,10 @@ from django.template.loader import get_template
 from xhtml2pdf import pisa
 from datetime import date, datetime
 from django.views.decorators.csrf import csrf_exempt
+from django.core import serializers
+from django.http import JsonResponse
+# Lien : Kevin Eric
+
 # Create your views here.
 
 
@@ -488,6 +492,12 @@ def listeMarque(request):
         'marque':marque,
     }
     return render(request, 'compte/listeMarque.html', context)
+
+def creerMarqueAjax(request):
+    data = serializers.serialize('json', SGPC_MARQUE.objects.all())
+    if request.is_ajax() and request.method =='GET':
+
+    return None
 
 @login_required(login_url="/login/")#inspirer de https://www.youtube.com/watch?v=eBsc65jTKvw
 @user_passes_test(lambda u: u.UTI_is_admin) #inspirer de https://stackoverflow.com/questions/21649439/redirecting-user-passes-testlambda-u-u-is-superuser-if-not-a-superuser-to-an

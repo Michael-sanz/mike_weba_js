@@ -14,12 +14,13 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/SGPC_ProjetSurMandat_V1/venv" />
       <excludeFolder url="file://$MODULE_DIR$/SGPC_ProjetSurMandat_V1/venvMike" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venvCentrale" />
       <excludeFolder url="file://$MODULE_DIR$/venvMike" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (WebaMikeJs)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (MikeJS)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
