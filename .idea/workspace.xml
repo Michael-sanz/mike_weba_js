@@ -19,16 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py">
-      <change beforePath="$PROJECT_DIR$/.idea/SGPC git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SGPC git.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6310ebed-7997-4776-a01c-e30b2bfea12c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4fcbdbb1-9eac-4f7c-aec2-d940077bd9d1" name="Default Changelist" comment="Création de la vue creerMarqueAjax + fichier js installation de jquery + url correspondante">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/ajaxWeba.js" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/static/compte/js/ajaxWeba.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeMarque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeProduits.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/listeProduits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierMarque.html" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/templates/compte/modifierMarque.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/compte/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SGPC_ProjetSurMandat_V1/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -161,7 +161,8 @@
       <workItem from="1613579319142" duration="9895000" />
       <workItem from="1613654850403" duration="11418000" />
       <workItem from="1614000796135" duration="1975000" />
-      <workItem from="1614602833084" duration="3899000" />
+      <workItem from="1614602833084" duration="4271000" />
+      <workItem from="1614679495155" duration="13276000" />
     </task>
     <task id="LOCAL-00001" summary="Rétablissement de l'environnment de travail (installation de package , correction des bugs)">
       <created>1612815058386</created>
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613661076820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Création de la vue creerMarqueAjax + fichier js installation de jquery + url correspondante">
+      <created>1614612576839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614612576839</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,17 +230,26 @@
     <MESSAGE value="Création d'une modal qui récupère l'id de la commande en fonction du button cliqué ! (Ajour du fichier JS)" />
     <MESSAGE value="Modification de ma fonction création du formulaire directement dans le html (admin.html) + dans le js création d'une fonction modifierForm + adaptation des vues et de url.py" />
     <MESSAGE value="Ajout du css et création de la modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du css et création de la modal" />
+    <MESSAGE value="Création de la vue creerMarqueAjax + fichier js installation de jquery + url correspondante" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de la vue creerMarqueAjax + fichier js installation de jquery + url correspondante" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="165" key="SettingsEditor" timestamp="1614603195337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614603195337" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614612581401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614612581401" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614602835240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614602835240" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614689639553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614689639553" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
-from .forms import loginForm, UtilisateurForm, ClientForm, NumeroSuivi
+from .forms import loginForm, UtilisateurForm, ClientForm, NumeroSuivi, creerMarqueAjax
 from django.contrib.auth.forms import UserChangeForm
 from . import forms
 from activatable_model.models import BaseActivatableModel
@@ -29,6 +29,7 @@ from datetime import date, datetime
 from django.views.decorators.csrf import csrf_exempt
 from django.core import serializers
 from django.http import JsonResponse
+import time
 # Lien : Kevin Eric
 
 # Create your views here.
@@ -493,11 +494,25 @@ def listeMarque(request):
     }
     return render(request, 'compte/listeMarque.html', context)
 
-def creerMarqueAjax(request):
-    data = serializers.serialize('json', SGPC_MARQUE.objects.all())
-    if request.is_ajax() and request.method =='GET':
+def postMarque(request):
+    if request.is_ajax() and request.method == 'POST':
+        time.sleep(2)
+        form = creerMarqueAjax(request.POST)
+        if form.is_valid():
+            instance = form.save()
+            ser_instance = serializers.serialize('json', [instance, ])
+            return JsonResponse({"instance": ser_instance}, status=200)
 
-    return None
+
+def listeMarqueAjax(request):
+    # data = serializers.serialize('json', SGPC_MARQUE.objects.all())
+    marque = SGPC_MARQUE.objects.all()
+    form = forms.creerMarqueAjax
+    context = {
+        'form' : form,
+        'marque' : marque,
+    }
+    return render(request, 'compte/listeMarqueAjax.html',context)
 
 @login_required(login_url="/login/")#inspirer de https://www.youtube.com/watch?v=eBsc65jTKvw
 @user_passes_test(lambda u: u.UTI_is_admin) #inspirer de https://stackoverflow.com/questions/21649439/redirecting-user-passes-testlambda-u-u-is-superuser-if-not-a-superuser-to-an
@@ -515,7 +530,7 @@ def creerMarque(request):
         form = forms.creerMarque(request.POST) # Récupération du formulaire de création d'une marque
         if form.is_valid():
             form.save() # Enregistrement de la marque la base de données
-            return redirect('listeMarque')
+            return redirect('listeMarqueAjax')
     else:
         form = forms.creerMarque
     context = {
@@ -533,7 +548,7 @@ def modifierMarque(request,pk):
         if form.is_valid():
             instance = form.save(commit=False)
             instance.save() # Enregristrement des données dans la base de données
-            return redirect('listeMarque')
+            return redirect('listeMarqueAjax')
     else:
         form = forms.modifierMarque(instance=marque)
     context = {
@@ -552,7 +567,7 @@ def supprimerMarque(request, pk):
         marque.MAR_is_active = False # On passe l'attribut "is_active" de "True" à "False"
         if form.is_valid():
             form.save() # Enregistrement des données dans la base de données.
-            return redirect('listeMarque')
+            return redirect('listeMarqueAjax')
     context = {
         'form': form,
         'marque': marque,
@@ -569,7 +584,7 @@ def reactiverMarque(request, pk):
         marque.MAR_is_active = True # On passe l'attribut "is_active" de "False" à "True"
         if form.is_valid():
             form.save() # Enregistrement des données dans la base de données.
-            return redirect('listeMarque')
+            return redirect('listeMarqueAjax')
     context = {
         'form': form,
         'marque': marque,

@@ -1,10 +1,9 @@
 from django.conf.urls import url
 from django.urls import path
 from django.contrib.auth import views as auth_views
-
 from compte import views
 
-
+# from .compte.views import postMarque
 
 urlpatterns = [
     url(r'login/',views.loginPage, name="login"),
@@ -58,7 +57,8 @@ urlpatterns = [
     path('listeRDVClient/<str:pk>/', views.listeRDVClient, name="listeRDVClient"),
     path('listeCommandeEspaceClient/<str:pk>/', views.listeCommandeEspaceClient, name="listeCommandeEspaceClient"),
     path('listeRendezVous/', views.listeRendezVous, name='listeRendezVous'),
-    path('creerMarqueAjax/', views.creerMarqueAjax, name='creerMarqueAjax'),
+    path('listeMarqueAjax/', views.listeMarqueAjax, name='listeMarqueAjax'),
+    path('postListeMarqueAjax/', views.postMarque, name='postlisteMarqueAjax'),
     url('demandeDevis/', views.demandeDevis, name="demandeDevis"),
 
     #réinitialisation de mot de passe // inspiré de https://www.youtube.com/watch?v=sFPcd6myZrY

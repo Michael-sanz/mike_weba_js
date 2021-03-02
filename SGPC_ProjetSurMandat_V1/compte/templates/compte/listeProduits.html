@@ -27,7 +27,7 @@
         <input type="submit" class="btn btn-primary btn-sm" value="Filtrer">
     </form>
      <br>
-    <a href="{% url 'listeMarque'%}"> <button class="btn btn-success">Liste des marques</button></a><a href="{% url 'listeCategorie'%}"> <button class="btn btn-success">Liste des catégories</button></a>
+    <a href="{% url 'listeMarqueAjax'%}"> <button class="btn btn-success">Liste des marques</button></a><a href="{% url 'listeCategorie'%}"> <button class="btn btn-success">Liste des catégories</button></a>
 <br>
         {% if produit_page_obj %}
         <div class="table-responsive-md" style="margin-top: 15px">

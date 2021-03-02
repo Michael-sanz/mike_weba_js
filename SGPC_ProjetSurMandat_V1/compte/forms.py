@@ -122,8 +122,16 @@ class creerDevisAssos(forms.ModelForm):
 class creerMarque(forms.ModelForm):
     class Meta:
         model = SGPC_MARQUE
+        fields = ['MAR_NOM', 'MAR_is_active']
+        labels = {'MAR_NOM':'Nom','MAR_is_active' : 'active' }
+
+
+class creerMarqueAjax(forms.ModelForm):
+    class Meta:
+        model = SGPC_MARQUE
         fields = ['MAR_NOM']
-        labels = {'MAR_NOM':'Nom'}
+        labels = {'MAR_NOM': 'Nom '}
+
 
 class modifierMarque(forms.ModelForm):
     class Meta:
