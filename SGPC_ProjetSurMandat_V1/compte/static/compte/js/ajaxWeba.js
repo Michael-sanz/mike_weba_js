@@ -38,3 +38,10 @@ $("#formAjax").submit(function (e) {
             },
         })
     })
+
+// Source :
+//
+// https://api.jquery.com/prepend/
+// https://realpython.com/django-and-ajax-form-submissions/
+// https://www.pluralsight.com/guides/work-with-ajax-django
+// https://simpleisbetterthancomplex.com/tutorial/2016/08/29/how-to-work-with-ajax-request-with-django.html
