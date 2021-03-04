@@ -494,7 +494,7 @@ def listeMarque(request):
     }
     return render(request, 'compte/listeMarque.html', context)
 
-def postMarque(request):
+def postlisteMarqueAjax(request):
     if request.is_ajax() and request.method == 'POST':
         time.sleep(2)
         form = creerMarqueAjax(request.POST)
@@ -505,7 +505,6 @@ def postMarque(request):
 
 
 def listeMarqueAjax(request):
-    # data = serializers.serialize('json', SGPC_MARQUE.objects.all())
     marque = SGPC_MARQUE.objects.all()
     form = forms.creerMarqueAjax
     context = {
