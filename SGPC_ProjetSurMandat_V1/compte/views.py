@@ -500,6 +500,7 @@ def postlisteMarqueAjax(request):
         form = creerMarqueAjax(request.POST)
         if form.is_valid():
             instance = form.save()
+            # encode les données de mon formulaire en format Json
             ser_instance = serializers.serialize('json', [instance, ])
             return JsonResponse({"instance": ser_instance}, status=200)
 
