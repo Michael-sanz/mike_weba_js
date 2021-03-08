@@ -1,3 +1,5 @@
+import json
+
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from .forms import loginForm, UtilisateurForm, ClientForm, NumeroSuivi, creerMarqueAjax
@@ -500,9 +502,9 @@ def postlisteMarqueAjax(request):
         form = creerMarqueAjax(request.POST)
         if form.is_valid():
             instance = form.save()
-            # encode les données de mon formulaire en format Json
-            ser_instance = serializers.serialize('json', [instance, ])
-            return JsonResponse({"instance": ser_instance}, status=200)
+            print(instance) #Uniquement pour le debug
+            return JsonResponse(data={"nomMarque" : instance.MAR_NOM , "statutMarque" : instance.MAR_is_active, "idMarque" : instance.id}, status=200)
+
 
 
 def listeMarqueAjax(request):
