@@ -133,6 +133,7 @@ class creerMarqueAjax(forms.ModelForm):
         labels = {'MAR_NOM': 'Nom '}
 
 
+
 class modifierMarque(forms.ModelForm):
     class Meta:
         model = SGPC_MARQUE
