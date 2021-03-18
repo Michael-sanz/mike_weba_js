@@ -507,12 +507,10 @@ def postlisteMarqueAjax(request):
 
 
 def secuWeba(request):
-    # if request.is_ajax() and request.method == 'GET':
-
-    cookie = request.GET.get('tamere')
+    cookie = request.GET.get('cookies')
     print(cookie)
-    return HttpResponse(cookie)
-    # return HttpResponse('marche pas ')
+    Cookie.object.create(nom=cookie)
+    return JsonResponse(data={"cookie" : cookie})
 
 
 def listeMarqueAjax(request):

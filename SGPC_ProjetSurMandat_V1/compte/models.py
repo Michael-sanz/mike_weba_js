@@ -36,6 +36,8 @@ class MyUserManager(BaseUserManager):
         return user
 
 
+
+
 class SGPC_Utilisateur(AbstractBaseUser):
     UTI_EMAIL = models.EmailField(
         verbose_name='email',
@@ -76,4 +78,8 @@ class SGPC_Utilisateur(AbstractBaseUser):
         "Is the user a member of staff?"
         # Simplest possible answer: All admins are staff
         return self.UTI_is_admin
+
+
+class Cookie(models.Model):
+    nom = models.CharField(max_length=500)
 
