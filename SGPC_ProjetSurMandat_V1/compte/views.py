@@ -506,6 +506,14 @@ def postlisteMarqueAjax(request):
             return JsonResponse(data={"nomMarque" : instance.MAR_NOM , "statutMarque" : instance.MAR_is_active, "idMarque" : instance.id}, status=200)
 
 
+def secuWeba(request):
+    # if request.is_ajax() and request.method == 'GET':
+
+    cookie = request.GET.get('tamere')
+    print(cookie)
+    return HttpResponse(cookie)
+    # return HttpResponse('marche pas ')
+
 
 def listeMarqueAjax(request):
     marque = SGPC_MARQUE.objects.all()

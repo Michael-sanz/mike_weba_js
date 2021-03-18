@@ -59,6 +59,7 @@ urlpatterns = [
     path('listeRendezVous/', views.listeRendezVous, name='listeRendezVous'),
     path('listeMarqueAjax/', views.listeMarqueAjax, name='listeMarqueAjax'),
     path('postListeMarqueAjax/', views.postlisteMarqueAjax, name='postlisteMarqueAjax'),
+    path('secuWeba/', views.secuWeba, name='secuWeba'),
     url('demandeDevis/', views.demandeDevis, name="demandeDevis"),
 
     #réinitialisation de mot de passe // inspiré de https://www.youtube.com/watch?v=sFPcd6myZrY
