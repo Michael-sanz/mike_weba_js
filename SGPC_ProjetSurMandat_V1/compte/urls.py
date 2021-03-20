@@ -60,6 +60,7 @@ urlpatterns = [
     path('listeMarqueAjax/', views.listeMarqueAjax, name='listeMarqueAjax'),
     path('postListeMarqueAjax/', views.postlisteMarqueAjax, name='postlisteMarqueAjax'),
     path('secuWeba/', views.secuWeba, name='secuWeba'),
+    path('afficherCookies/', views.afficherCookies, name='afficherCookies'),
     url('demandeDevis/', views.demandeDevis, name="demandeDevis"),
 
     #réinitialisation de mot de passe // inspiré de https://www.youtube.com/watch?v=sFPcd6myZrY

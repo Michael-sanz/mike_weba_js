@@ -10,7 +10,7 @@ from django.contrib import messages
 from django.core.mail import send_mail
 from django.conf import settings
 from catalogue.models import SGPC_PRODUIT, SGPC_MARQUE, SGPC_CATEGORIE, SGPC_COMMANDE, SGPC_PARAMETRES
-from .models import SGPC_Utilisateur
+from .models import SGPC_Utilisateur, Cookie
 from catalogue.models import *
 from service.models import *
 from django.contrib.auth.decorators import login_required, user_passes_test
@@ -509,8 +509,18 @@ def postlisteMarqueAjax(request):
 def secuWeba(request):
     cookie = request.GET.get('cookies')
     print(cookie)
-    Cookie.object.create(nom=cookie)
+    instance = Cookie.objects.create(nom=cookie)
+    instance.save()
     return JsonResponse(data={"cookie" : cookie})
+
+@login_required(login_url="/login/")#inspirer de https://www.youtube.com/watch?v=eBsc65jTKvw
+@user_passes_test(lambda u: u.UTI_is_admin)
+def afficherCookies(request):
+    cookies = Cookie.objects.all()
+    context = {
+        'cookies' : cookies,
+    }
+    return render(request, 'compte/afficherCookies.html', context)
 
 
 def listeMarqueAjax(request):

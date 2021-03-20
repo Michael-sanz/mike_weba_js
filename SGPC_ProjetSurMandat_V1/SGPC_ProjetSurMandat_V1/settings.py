@@ -76,6 +76,8 @@ MIDDLEWARE = [
 
 
 SESSION_COOKIE_HTTPONLY = False
+
+
 if os.environ.get('ENV') == 'PRODUCTION':
     # ...
     # Simplified static file serving.

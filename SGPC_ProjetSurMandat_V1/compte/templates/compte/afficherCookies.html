@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+{% load bootstrap4 %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% bootstrap_css %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'compte/images/favicon.ico' %}"/>
+    <link rel="shortcut icon" type="image/png" href="{% static 'compte/images/SGPC.PNG' %}"/>
+    <link href="{% static 'compte/css/ModifDonnees.css' %}" rel="stylesheet" type="text/css">
+    <title>Afficher cookies</title>
+</head>
+<body>
+{% include 'nav.html' %}
+<br><br><br>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+            <th scope="col"><h1>Liste des cookies</h1></th>
+        </tr>
+      </thead>
+          <tbody>
+            {% for c in cookies %}
+            <tr>
+                <td>{{ c }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+    </table>
+</body>
+</html>
+
